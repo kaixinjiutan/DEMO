@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-lg">
-    <h5 class="q-mt-none">Help</h5>
+    <h5 class="q-mt-none">Help WeiYan</h5>
     <p>
       You are, my fire, The one, desire Believe, when I say, I want it that way
       But we, are two worlds apart, Can't reach to your heart, When you say,
