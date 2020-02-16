@@ -1,0 +1,54 @@
+<div>
+  <header>
+    <mat-toolbar color="primary">
+      <span
+        >frame works! Warehouse Management<mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          >home
+        </mat-icon></span
+      >
+      <span class="example-fill-remaining-space"></span>
+      <span class="a-font-size-16">张译文</span>
+      <span class="a-font-size-16" (click)="logout()" title="退出">退出</span>
+    </mat-toolbar>
+  </header>
+  <div class="m-layer">
+    <div class="m-left">
+      <div>
+        <mat-list>
+          <mat-list-item>
+            <a mat-button routerLink="/frame/order" routerLinkActive="active"
+              >订单</a
+            >
+          </mat-list-item>
+          <mat-list-item>
+            <a mat-button routerLink="/frame/product" routerLinkActive="active"
+              >产品</a
+            >
+          </mat-list-item>
+          <mat-list-item>
+            <a mat-button routerLink="/frame/material" routerLinkActive="active"
+              >物料</a
+            >
+          </mat-list-item>
+          <mat-list-item>
+            <a mat-button routerLink="/frame/customer" routerLinkActive="active"
+              >客户</a
+            >
+          </mat-list-item>
+          <mat-list-item>
+            <a mat-button routerLink="/frame/user" routerLinkActive="active"
+              >用户</a
+            >
+          </mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+    <div class="m-right">
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

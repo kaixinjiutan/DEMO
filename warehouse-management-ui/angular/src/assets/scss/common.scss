@@ -1,0 +1,123 @@
+// width
+.width-full {
+  width: 100%;
+}
+
+// height
+.height-full {
+  height: 100%;
+}
+
+// font-size 
+.font-12 {
+  font-size: 12px;
+}
+.font-22 {
+  font-size: 22px;
+}
+// font-weight
+.font-weight-bold {
+  font-weight: $font-weight-700 !important;
+}
+
+// margin
+.margin-none {
+  margin: 0;
+}
+
+// top
+.margin-top-20 {
+  margin-top: $pixel-20;
+}
+.margin-top-30 {
+  margin-top: $pixel-30;
+}
+
+// bottom
+.margin-bottom-20 {
+  margin-bottom: $pixel-20;
+}
+.margin-bottom-30 {
+  margin-bottom: $pixel-30;
+}
+// left
+.margin-left-20 {
+  margin-left: $pixel-20;
+}
+.margin-left-30 {
+  margin-left: $pixel-30;
+}
+.margin-left-50 {
+  margin-left: $pixel-50;
+}
+.margin-left-80 {
+  margin-left: $pixel-80;
+}
+// right {
+.margin-right-10{
+  margin-right: $pixel-10;
+}
+.margin-right-20{
+  margin-right: $pixel-20;
+}
+
+// padding
+.padding-none {
+  padding: 0px;
+}
+
+// top
+.padding-top-20 {
+  padding-top: $pixel-20;
+}
+.padding-top-30 {
+  padding-top: $pixel-30;
+}
+
+// left
+.padding-left-20 {
+  padding-left: $pixel-20;
+}
+.padding-left-30 {
+  padding-left: $pixel-30;
+}
+
+// right
+.padding-right-20 {
+  padding-right: $pixel-20;
+}
+.padding-right-30 {
+  padding-right: $pixel-30;
+}
+
+
+//color 
+.primary {
+  color: var(--primary-900) !important;
+}
+.color-666 {
+  color: $color-666 !important;
+}
+.color-white {
+  color: $white;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.border-box {
+  box-sizing: border-box;
+}
+

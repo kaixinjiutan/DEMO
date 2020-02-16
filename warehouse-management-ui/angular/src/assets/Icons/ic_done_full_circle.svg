@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>ic_done_full_circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.6,11.9287432 L3.975,9.30374315 C3.83635975,9.16338213 3.64728745,9.08438185 3.45,9.08438185 C3.25271255,9.08438185 3.06364025,9.16338213 2.925,9.30374315 C2.6325,9.59624315 2.6325,10.0612432 2.925,10.3537432 L6.0675,13.4962432 C6.36,13.7887432 6.8325,13.7887432 7.125,13.4962432 L15.075,5.55374315 C15.3675,5.26124315 15.3675,4.79624315 15.075,4.50374315 C14.9363597,4.36338213 14.7472874,4.28438185 14.55,4.28438185 C14.3527126,4.28438185 14.1636403,4.36338213 14.025,4.50374315 L6.6,11.9287432 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Text-Field-/-Filled-/-Leading-Icon-/-Resting-Crane" transform="translate(-16.000000, -16.000000)">
+            <g transform="translate(0.000000, -0.000000)" id="ic_done_full_circle">
+                <g transform="translate(16.000000, 16.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+                    <g id="Icon-/-Done-/-Rounded" transform="translate(3.000000, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="icon/action/done_24px" fill-rule="nonzero"></g>
+                        <g id="✱-/-Color-/-Icons-/-Primary-or-Secondary" mask="url(#mask-2)" fill="#0D47A1" fill-rule="evenodd">
+                            <g id="✱-/-Color-/-Primary-/-Main">
+                                <g id="✱-/-Color-/-Primary-/-900">
+                                    <rect id="Rectangle-13" x="0" y="0" width="18" height="18"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

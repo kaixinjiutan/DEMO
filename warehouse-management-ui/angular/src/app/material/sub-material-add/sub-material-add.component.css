@@ -1,0 +1,12 @@
+.a-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-mat-form-field {
+  margin-right: 20px;
+}
+
+button {
+  margin-left: 20px;
+}

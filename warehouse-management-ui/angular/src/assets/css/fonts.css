@@ -1,0 +1,6046 @@
+/* 
+  Medimpact Typography
+ */
+
+.H1-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H1-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H2-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H2-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H2-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H2-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H3-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H3-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H3-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H3-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H1-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H1-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H1-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--surface-base);
+}
+
+.H1-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H1-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--on-primary-disabled);
+}
+
+.H1-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H1-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H1-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H1-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-active);
+}
+
+.H1-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H1-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-disabled);
+}
+
+.H1-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H1-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-disabled);
+}
+
+.H1-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H1-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H1-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H1-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-active);
+}
+
+.H1-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H1-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-disabled);
+}
+
+.H1-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H1-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H1-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H1-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--icon-active);
+}
+
+.H1-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H1-Secondary-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--secondary-400);
+}
+
+.H1-Secondary-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--secondary-400);
+}
+
+.H1-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--on-primary-disabled);
+}
+
+.H1-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H1-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H1-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H1-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--surface-base);
+}
+
+.H1-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H1-Primary-Left {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  color: var(--primary-900);
+}
+
+.H1-Primary-Center {
+  font-family: Asap;
+  font-size: 97px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H2-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H2-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H2-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--surface-base);
+}
+
+.H2-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H2-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--on-primary-disabled);
+}
+
+.H2-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H2-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H2-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H2-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H2-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H2-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-disabled);
+}
+
+.H2-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H2-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H2-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--icon-active);
+}
+
+.H2-Secondary-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--secondary-400);
+}
+
+.H2-Secondary-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.H2-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--on-primary-disabled);
+}
+
+.H2-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--on-primary-disabled);
+}
+
+.H2-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H2-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H2-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--surface-base);
+}
+
+.H2-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--surface-base);
+}
+
+.H2-Primary-Left {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--primary-900);
+}
+
+.H2-Primary-Center {
+  font-family: Asap;
+  font-size: 60.6px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H3-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H3-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H3-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--surface-base);
+}
+
+.H3-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H3-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--on-primary-disabled);
+}
+
+.H3-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H3-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H3-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H3-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H3-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H3-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H3-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H3-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H3-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H3-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H3-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H3-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H3-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H3-Secondary-On-Surface-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--secondary-800);
+}
+
+.H3-Secondary-On-Surface-Right {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--secondary-800);
+}
+
+.H3-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H3-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H3-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H3-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H3-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H3-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H3-Secondary-Right {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--secondary-400);
+}
+
+.H3-Secondary-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--secondary-400);
+}
+
+.H3-Secondary-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.H3-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--on-primary-disabled);
+}
+
+.H3-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--on-primary-disabled);
+}
+
+.H3-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H3-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H3-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--surface-base);
+}
+
+.H3-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--surface-base);
+}
+
+.H3-Primary-Left {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary-900);
+}
+
+.H3-Primary-Center {
+  font-family: Asap;
+  font-size: 48.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H4-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H4-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H4-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.H4-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H4-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.H4-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H4-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H4-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H4-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H4-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H4-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.H4-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H4-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.H4-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H4-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H4-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H4-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H4-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H4-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.H4-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H4-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H4-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H4-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H4-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H4-Secondary-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--secondary-400);
+}
+
+.H4-Secondary-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--secondary-400);
+}
+
+.H4-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.H4-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H4-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H4-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H4-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.H4-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H4-Primary-Left {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--primary-900);
+}
+
+.H4-Primary-Center {
+  font-family: Asap;
+  font-size: 34.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H5-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H5-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H5-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H5-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--surface-base);
+}
+
+.H5-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--on-primary-disabled);
+}
+
+.H5-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H5-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H5-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H5-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H5-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H5-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H5-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H5-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H5-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H5-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H5-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H5-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H5-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H5-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-disabled);
+}
+
+.H5-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H5-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H5-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H5-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--icon-active);
+}
+
+.H5-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H5-Secondary-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--secondary-400);
+}
+
+.H5-Secondary-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.H5-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--on-primary-disabled);
+}
+
+.H5-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H5-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H5-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H5-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--surface-base);
+}
+
+.H5-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H5-Primary-Left {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary-900);
+}
+
+.H5-Primary-Center {
+  font-family: Asap;
+  font-size: 24.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H6-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H6-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.H6-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.H6-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H6-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.H6-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H6-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H6-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H6-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H6-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H6-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.H6-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H6-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H6-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H6-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H6-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.H6-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H6-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H6-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.H6-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.H6-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H6-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.H6-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.H6-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.H6-Secondary-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--secondary-400);
+}
+
+.H6-Secondary-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.H6-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.H6-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.H6-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H6-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.H6-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.H6-Primary-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--primary-900);
+}
+
+.H6-Primary-Center {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.H6-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 20.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.Subtitle-1-Secondary-On-Surface-Left {
+  font-family: Rubik;
+  font-size: 16.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--secondary-800);
+}
+
+.Subtitle-1-Secondary-On-Surface-Right {
+  font-family: Rubik;
+  font-size: 16.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: right;
+  color: var(--secondary-800);
+}
+
+.Subtitle-1-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Subtitle-1-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Subtitle-1-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--surface-base);
+}
+
+.Subtitle-1-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Subtitle-1-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-1-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-1-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-1-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-1-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-1-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-1-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Subtitle-1-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Subtitle-1-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-1-Secondary-Right {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: right;
+  color: var(--secondary-400);
+}
+
+.Subtitle-1-Secondary-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--secondary-400);
+}
+
+.Subtitle-1-Secondary-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Subtitle-1-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-1-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-1-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Subtitle-1-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Subtitle-1-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--surface-base);
+}
+
+.Subtitle-1-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Subtitle-1-Primary-Right {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: right;
+  color: var(--primary-900);
+}
+
+.Subtitle-1-Primary-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--primary-900);
+}
+
+.Subtitle-1-Primary-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Subtitle-1-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-1-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Raleway;
+  font-size: 16.2px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-1-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Raleway;
+  font-size: 16.2px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 0.15px;
+  color: var(--icon-active);
+}
+
+.Body-1-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Body-1-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Body-1-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--surface-base);
+}
+
+.Body-1-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Body-1-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--on-primary-disabled);
+}
+
+.Body-1-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Body-1-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-1-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-1-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-active);
+}
+
+.Body-1-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-1-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-1-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-1-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-active);
+}
+
+.Body-1-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-1-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Body-1-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Body-1-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Body-1-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--icon-active);
+}
+
+.Body-1-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-1-Secondary-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--secondary-400);
+}
+
+.Body-1-Secondary-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Body-1-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--on-primary-disabled);
+}
+
+.Body-1-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Body-1-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Body-1-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Body-1-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--surface-base);
+}
+
+.Body-1-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Body-1-Primary-Left {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  color: var(--primary-900);
+}
+
+.Body-1-Primary-Center {
+  font-family: Asap;
+  font-size: 16.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Button-White-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Button-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Button-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Button-White-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Button-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--surface-base);
+}
+
+.Button-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Button-White-Disabled-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Button-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--on-primary-disabled);
+}
+
+.Button-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Button-Black-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Black-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Button-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-active);
+}
+
+.Button-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Button-Black-Disabled-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Button-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-disabled);
+}
+
+.Button-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Surface-Disabled-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Surface-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Button-Selected-On-Surface-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Button-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-active);
+}
+
+.Button-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Button-Selected-On-Secondary-Disabled-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Button-Selected-On-Secondary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Button-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Button-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Button-Selected-On-Secondary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Button-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--icon-active);
+}
+
+.Button-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Button-Secondary-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--secondary-400);
+}
+
+.Button-Secondary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--secondary-400);
+}
+
+.Button-Secondary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Button-Primary-On-Surface-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--primary-900);
+}
+
+.Button-Selected-On-Primary-Disabled-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Button-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--on-primary-disabled);
+}
+
+.Button-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Button-Selected-On-Primary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Button-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Button-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Button-Selected-On-Primary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Button-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--surface-base);
+}
+
+.Button-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Button-Primary-200-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--primary-300);
+}
+
+.Button-Primary-Right {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: right;
+  color: var(--primary-900);
+}
+
+.Button-Primary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  color: var(--primary-900);
+}
+
+.Button-Primary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Button-Primary-On-Surface-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Button-Primary-200-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--primary-300);
+}
+
+.Button-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Button-Primary-On-Surface-Center {
+  font-family: Raleway;
+  font-size: 14.1px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Body-2-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Body-2-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Body-2-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Body-2-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.Body-2-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Body-2-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-2-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-2-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.Body-2-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-2-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.Body-2-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Subtitle-2-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Subtitle-2-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--surface-base);
+}
+
+.Subtitle-2-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Subtitle-2-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-2-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-2-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-2-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-2-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Body-2-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.Body-2-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-2-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-2-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Body-2-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Subtitle-2-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-2-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.Body-2-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Body-2-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-disabled);
+}
+
+.Body-2-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Subtitle-2-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Subtitle-2-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Body-2-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Body-2-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Subtitle-2-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Body-2-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.Body-2-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Subtitle-2-Secondary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--secondary-400);
+}
+
+.Subtitle-2-Secondary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Body-2-Secondary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--secondary-400);
+}
+
+.Body-2-Secondary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Body-2-Primary-On-Surface-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--primary-900);
+}
+
+.Body-2-Primary-On-Surface-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Subtitle-2-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-2-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Body-2-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--on-primary-disabled);
+}
+
+.Body-2-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Subtitle-2-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Subtitle-2-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Body-2-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Body-2-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Subtitle-2-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--surface-base);
+}
+
+.Subtitle-2-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Body-2-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.Body-2-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Subtitle-2-Primary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  color: var(--primary-900);
+}
+
+.Subtitle-2-Primary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Body-2-Primary-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--primary-900);
+}
+
+.Body-2-Primary-Center {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Body-2-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: 0.25px;
+  color: var(--surface-base);
+}
+
+.Body-2-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 0.25px;
+  color: var(--icon-active);
+}
+
+.Caption-Secondary-On-Surface-Center {
+  font-family: Rubik;
+  font-size: 12.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--secondary-800);
+}
+
+.Caption-Secondary-On-Surface-Left {
+  font-family: Rubik;
+  font-size: 12.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.4px;
+  color: var(--secondary-800);
+}
+
+.Overline-White-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Overline-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Overline-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Overline-White-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Overline-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Overline-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--surface-base);
+}
+
+.Overline-White-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-Black-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Black-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Overline-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-active);
+}
+
+.Overline-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Overline-Black-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Overline-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-disabled);
+}
+
+.Overline-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Surface-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Surface-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Overline-Selected-On-Surface-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Overline-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-active);
+}
+
+.Overline-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Overline-Selected-On-Secondary-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Overline-Selected-On-Secondary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Overline-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Overline-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Overline-Selected-On-Secondary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Overline-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--icon-active);
+}
+
+.Overline-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Overline-Secondary-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--secondary-400);
+}
+
+.Overline-Secondary-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Overline-Selected-On-Primary-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Overline-Selected-On-Primary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Overline-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Overline-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Overline-Selected-On-Primary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Overline-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--surface-base);
+}
+
+.Overline-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Overline-Primary-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  color: var(--primary-900);
+}
+
+.Overline-Primary-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Caption-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Raleway;
+  font-size: 12.1px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Selected-On-Surface-High-Emphasis-Right {
+  font-family: Raleway;
+  font-size: 12.1px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Caption-White-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Caption-White-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Caption-White-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Caption-White-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Caption-White-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--surface-base);
+}
+
+.Caption-White-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Caption-White-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-White-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-White-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-Error-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--error);
+}
+
+.Caption-Error-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--error);
+}
+
+.Caption-Black-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Black-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Black-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Black-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Caption-Black-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-active);
+}
+
+.Caption-Black-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Caption-Black-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Caption-Black-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-disabled);
+}
+
+.Caption-Black-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Surface-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Surface-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Surface-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Surface-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Selected-On-Surface-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Selected-On-Surface-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Caption-Selected-On-Surface-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-active);
+}
+
+.Caption-Selected-On-Surface-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Caption-Selected-On-Secondary-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Secondary-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Secondary-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-disabled);
+}
+
+.Caption-Selected-On-Secondary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Caption-Selected-On-Secondary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Caption-Selected-On-Secondary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Caption-Selected-On-Secondary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--icon-active);
+}
+
+.Caption-Selected-On-Secondary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--icon-active);
+}
+
+.Caption-Selected-On-Secondary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--icon-active);
+}
+
+.Caption-Secondary-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--secondary-400);
+}
+
+.Caption-Secondary-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--secondary-400);
+}
+
+.Caption-Primary-On-Surface-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Caption-Selected-On-Primary-Disabled-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-Selected-On-Primary-Disabled-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-Selected-On-Primary-Disabled-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--on-primary-disabled);
+}
+
+.Caption-Selected-On-Primary-Medium-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Caption-Selected-On-Primary-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Caption-Selected-On-Primary-Medium-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Caption-Selected-On-Primary-High-Emphasis-Right {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: right;
+  color: var(--surface-base);
+}
+
+.Caption-Selected-On-Primary-High-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--surface-base);
+}
+
+.Caption-Selected-On-Primary-High-Emphasis-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--surface-base);
+}
+
+.Caption-Primary-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: var(--primary-900);
+}
+
+.Caption-Primary-Center {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: var(--primary-900);
+}
+
+.Caption-Selected-On-Surface-Medium-Emphasis-Left {
+  font-family: Asap;
+  font-size: 12.1px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Caption-Primary-On-Surface-Left {
+  font-family: Asap;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: var(--primary-900);
+}

@@ -1,0 +1,51 @@
+<div class="m-material-add">
+  <div class="a-top">
+    <h5 class="primary">新增物料</h5>
+    <div class="">
+      <button
+        mat-button
+        mat-raised-button
+        color="primary"
+        (click)="saveMaterial()"
+        [disabled]="!materialForm.valid"
+      >
+        保存
+      </button>
+      <button mat-button [mat-dialog-close]="material">
+        关闭
+      </button>
+    </div>
+  </div>
+  <form class="example-form" [formGroup]="materialForm">
+    <div>
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>物料编码</mat-label>
+        <input
+          matInput
+          formControlName="materialCode"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="materialFormError.materialCode.show">{{
+          materialFormError.materialCode.msg
+        }}</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>物料名称</mat-label>
+        <input
+          matInput
+          formControlName="materialName"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="materialFormError.materialName.show">{{
+          materialFormError.materialName.msg
+        }}</mat-error>
+      </mat-form-field>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,28 @@
+<div class="flex-box login-main">
+  <span class="fill-remaining-space"></span>
+  <div class="example-form">
+    <form [formGroup]="loginFrom"> 
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>User Name</mat-label>
+          <input matInput formControlName="userCode" placeholder="Enter your userCode" autocomplete required>
+          <mat-hint>*required</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>User Password</mat-label>
+          <input type="password" matInput formControlName="password" placeholder="Enter your password" autocomplete required>
+          <mat-hint>*required</mat-hint>
+        </mat-form-field>
+      </p>
+    </form>
+    <div class="flex-box">
+      <span class="fill-remaining-space"></span>
+      <button mat-raised-button color="primary" (click)="logOn()" [disabled]="!loginFrom.valid">Log in</button>
+      <span class="fill-remaining-space"></span>
+    </div>
+  </div>
+  <span class="fill-remaining-space"></span>
+</div>
+
