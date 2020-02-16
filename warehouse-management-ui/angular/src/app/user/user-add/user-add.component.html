@@ -1,0 +1,25 @@
+<div class="m-user-add">
+  <div class="a-top">
+    <h5 class="primary">新增用户</h5>
+    <div class="">
+      <button mat-button  mat-raised-button color="primary" (click)="saveUser()" [disabled]="!userForm.valid">保存</button>
+      <button mat-button [mat-dialog-close]="user">
+        关闭
+      </button>
+    </div>
+  </div>
+  <form class="example-form" [formGroup]="userForm">
+    <div>
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>用户名称</mat-label>
+        <input matInput formControlName="userCode" placeholder="" autocomplete="off" required (blur)="approved()"/>
+        <mat-error *ngIf="userFormError.userCode.show">{{userFormError.userCode.msg}}</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>用户密码</mat-label>
+        <input matInput formControlName="password" placeholder="" autocomplete="off" required (blur)="approved()"/>
+        <mat-error *ngIf="userFormError.password.show">{{ userFormError.password.msg }}</mat-error>
+      </mat-form-field>
+    </div>
+  </form>
+</div>

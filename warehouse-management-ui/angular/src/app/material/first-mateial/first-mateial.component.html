@@ -1,0 +1,67 @@
+<div class="m-search-module">
+  <form class="example-form" [formGroup]="inputMaterialForm">
+    <div class="example-container">
+      <mat-form-field class="width-full">
+        <mat-label>一级物料编码</mat-label>
+        <input
+          type="text"
+          placeholder=""
+          aria-label=""
+          matInput
+          formControlName="inputMaterial"
+          [matAutocomplete]="auto"
+          (click)="displayMaterialList()"
+          (input)="getSearchFirstMaterial()"
+        />
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option
+            *ngFor="let inputMaterialObj of filteredInputMaterials | async"
+            [value]="inputMaterialObj"
+          >
+            {{ inputMaterialObj.materialName }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      <div class="m-div-button">
+        <button mat-button (click)="searchList()">查询</button>
+      </div>
+    </div>
+  </form>
+  <button mat-button (click)="addMateial()">新增物料</button>
+  <!-- table -->
+  <div class="m-table">
+    <table mat-table [dataSource]="dataSource" matSort>
+      <!-- ID Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let element">{{ element.id }}</td>
+      </ng-container>
+      <!-- 用户名 Column -->
+      <ng-container matColumnDef="materialCode">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>物料编码</th>
+        <td mat-cell *matCellDef="let element">{{ element.materialCode }}</td>
+      </ng-container>
+      <!-- 密码 Column -->
+      <ng-container matColumnDef="materialName">
+        <th mat-header-cell *matHeaderCellDef>物料名称</th>
+        <td mat-cell *matCellDef="let element">{{ element.materialName }}</td>
+      </ng-container>
+      <!-- 操作 Column -->
+      <ng-container matColumnDef="operator">
+        <th mat-header-cell *matHeaderCellDef>操作</th>
+        <td mat-cell *matCellDef="let element">
+          <a mat-button (click)="updateMaterial(element)">编辑</a>
+          <a mat-button (click)="deleteMaterial(element)">删除</a>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 20]"
+      showFirstLastButtons
+    ></mat-paginator>
+  </div>
+</div>

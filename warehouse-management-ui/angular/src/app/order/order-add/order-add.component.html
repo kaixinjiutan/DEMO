@@ -1,0 +1,176 @@
+<div class="a-div-contain">
+  <div class="a-div-content">
+    <div class="a-top">
+      <h5 class="primary">新增订单</h5>
+      <div class="">
+        <button mat-button (click)="saveOrder()">保存</button>
+        <button mat-button [mat-dialog-close]="data" cdkFocusInitial>
+          关闭
+        </button>
+      </div>
+    </div>
+    <form class="example-form" [formGroup]="orderForm">
+      <div>
+        <mat-form-field class="a-mat-form-field" appearance="outline">
+          <mat-label>订单编码</mat-label>
+          <input
+            matInput
+            formControlName="orderNo"
+            placeholder=""
+            autocomplete="off"
+            required
+          />
+          <mat-error *ngIf="orderFormError.orderNo.show">{{
+            orderFormError.orderNo.msg
+          }}</mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="a-mat-form-field">
+          <mat-label>客户名称</mat-label>
+          <mat-select formControlName="customerCode" placeholder="">
+            <mat-option
+              [value]="ct.customerCode"
+              *ngFor="let ct of customers"
+              >{{ ct.customerName }}</mat-option
+            >
+          </mat-select>
+          <mat-error *ngIf="orderFormError.customerCode.show">{{
+            orderFormError.customerCode.msg
+          }}</mat-error>
+        </mat-form-field>
+        <!-- 开始日期 -->
+        <mat-form-field  class="a-mat-form-field" appearance="outline">
+          <mat-label>开始日期</mat-label>
+          <input
+            matInput
+            [matDatepicker]="startDatePicker"
+            placeholder="Choose a date"
+            [formControl]="startDate"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="startDatePicker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker
+            #startDatePicker
+            startView="year"
+          ></mat-datepicker>
+        </mat-form-field>
+        <!-- 结束日期 -->
+        <mat-form-field  class="a-mat-form-field" appearance="outline">
+          <mat-label>结束日期</mat-label>
+          <input
+            matInput
+            [matDatepicker]="endDatePicker"
+            placeholder="Choose a date"
+            [formControl]="endDate"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="endDatePicker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker
+            #endDatePicker
+            startView="year"
+            [startAt]="endDate"
+          ></mat-datepicker>
+        </mat-form-field>
+      </div>
+    </form>
+    <div class="a-add-box">
+      <h5 class="primary">新增产品</h5>
+      <form class="example-form" [formGroup]="orderProductForm">
+        <div>
+          <mat-form-field class="a-mat-form-field" appearance="outline">
+            <mat-label>产品</mat-label>
+            <mat-select formControlName="productCode" placeholder="">
+              <mat-option
+                [value]="pt.productCode"
+                *ngFor="let pt of products"
+                >{{ pt.productName }}</mat-option
+              >
+            </mat-select>
+            <mat-error
+              *ngIf="
+                !orderProductForm.value.productCode ||
+                orderProductForm.value.productCode.length < 1
+              "
+            >
+              你必须选择产品</mat-error
+            >
+          </mat-form-field>
+          <mat-form-field class="a-mat-form-field" appearance="outline">
+            <mat-label>产品数量</mat-label>
+            <input
+              matInput
+              formControlName="productQuantity"
+              placeholder=""
+              autocomplete="off"
+            />
+            <mat-error
+              *ngIf="
+                !orderProductForm.value.productQuantity ||
+                orderProductForm.value.productQuantity.length < 1
+              "
+              >你必须填写产品数量
+            </mat-error>
+          </mat-form-field>
+          <span class="a-add-btn">
+            <button mat-button (click)="addOrderProduct()">
+              添加
+            </button>
+          </span>
+        </div>
+      </form>
+    </div>
+    <div class="border-box">
+      <div class="m-table" *ngIf="isShow()">
+        <h5 class=" primary">订单产品数量信息</h5>
+        <table mat-table [dataSource]="dataSource" matSort>
+          <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>序号</th>
+            <td mat-cell *matCellDef="let element">{{ element.id }}</td>
+          </ng-container>
+          <ng-container matColumnDef="productCode">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              产品编码
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.productCode }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="productName">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              产品名称
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.productName }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="quantity">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              产品数量
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.quantity }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="operators">
+            <th mat-header-cell *matHeaderCellDef>操作</th>
+            <td mat-cell *matCellDef="let element">
+              <!-- <a mat-button (click)="saveMaterialRatio(element)">保存</a>
+              <a mat-button (click)="editMaterialRatio(element)">修改</a> -->
+              <a mat-button (click)="removeOrderProduct(element)">删除</a>
+            </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+
+        <mat-paginator
+          [pageSizeOptions]="[5, 10, 25, 100]"
+          showFirstLastButtons
+        ></mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

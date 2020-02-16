@@ -1,0 +1,123 @@
+<div class="m-user-add">
+  <div class="a-top">
+    <h5 class="primary">新增二级物料</h5>
+    <div class="">
+      <button
+        mat-button
+        mat-raised-button
+        color="primary"
+        (click)="saveSubMaterial()"
+        [disabled]="!subMaterialForm.valid"
+      >
+        保存
+      </button>
+      <button mat-button [mat-dialog-close]="subMaterial">
+        关闭
+      </button>
+    </div>
+  </div>
+  <form class="example-form" [formGroup]="subMaterialForm">
+    <div>
+      <!-- (blur)="saveMaterialCode(materialCode.value)" -->
+      <!-- 一级物料编码 -->
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>一级物料名称</mat-label>
+        <input
+          (blur)="approved()"
+          type="text"
+          required
+          matInput
+          formControlName="material"
+          [matAutocomplete]="auto"
+          (click)="displayMaterialList()"
+        />
+        <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+          <mat-option
+            (blur)="approved()"
+            *ngFor="let inputMaterialObj of filteredInputMaterials | async"
+            [value]="inputMaterialObj"
+          >
+            {{ inputMaterialObj.materialName }}
+          </mat-option>
+        </mat-autocomplete>
+        <mat-error *ngIf="subMaterialFormError.materialCode.show">{{
+          subMaterialFormError.materialCode.msg
+        }}</mat-error>
+      </mat-form-field>
+      <!-- 二级物料编码 -->
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>二级物料编码</mat-label>
+        <input
+          matInput
+          formControlName="subMaterialCode"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="subMaterialFormError.subMaterialCode.show">{{
+          subMaterialFormError.subMaterialCode.msg
+        }}</mat-error>
+      </mat-form-field>
+      <!-- 二级物料名称 -->
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>二级物料名称</mat-label>
+        <input
+          matInput
+          formControlName="subMaterialName"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="subMaterialFormError.subMaterialName.show">{{
+          subMaterialFormError.subMaterialName.msg
+        }}</mat-error>
+      </mat-form-field>
+      <!-- 二级物料成本 -->
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>二级物料成本</mat-label>
+        <input
+          matInput
+          formControlName="cost"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="subMaterialFormError.cost.show">{{
+          subMaterialFormError.cost.msg
+        }}</mat-error>
+      </mat-form-field>
+      <!-- 二级物料库存 -->
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>二级物料库存</mat-label>
+        <input
+          matInput
+          formControlName="stock"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="subMaterialFormError.stock.show">{{
+          subMaterialFormError.stock.msg
+        }}</mat-error>
+      </mat-form-field>
+      <mat-form-field class="a-mat-form-field" appearance="outline">
+        <mat-label>二级物料计量单位</mat-label>
+        <input
+          matInput
+          formControlName="unit"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="subMaterialFormError.unit.show">{{
+          subMaterialFormError.unit.msg
+        }}</mat-error>
+      </mat-form-field>
+    </div>
+  </form>
+</div>

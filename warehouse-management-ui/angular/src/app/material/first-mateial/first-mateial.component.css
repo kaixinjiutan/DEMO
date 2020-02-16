@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+.m-search-module {
+  padding: 1rem 0;
+}
+.example-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .example-container > * {
+  width: 100%;
+} */
+.m-div-button {
+  width: 5rem;
+}

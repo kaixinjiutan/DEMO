@@ -1,0 +1,191 @@
+<div class="a-div-contain">
+  <div class="a-div-content">
+    <div class="a-top">
+      <h5 class="primary">新增产品</h5>
+      <div class="">
+        <button mat-button (click)="saveProduct()">保存</button>
+        <button mat-button [mat-dialog-close]="data" cdkFocusInitial>
+          关闭
+        </button>
+      </div>
+    </div>
+    <form class="example-form" [formGroup]="productForm">
+      <div>
+        <!-- 产品编码 -->
+        <mat-form-field class="a-mat-form-field" appearance="outline">
+          <mat-label>产品编码</mat-label>
+          <input
+            matInput
+            formControlName="productCode"
+            placeholder=""
+            autocomplete="off"
+            required
+          />
+          <mat-error *ngIf="productFormError.productCode.show">{{
+            productFormError.productCode.msg
+          }}</mat-error>
+        </mat-form-field>
+        <!-- 产品名称 -->
+        <mat-form-field appearance="outline" class="a-mat-form-field">
+          <mat-label>产品名称</mat-label>
+          <input
+            matInput
+            formControlName="productName"
+            placeholder=""
+            autocomplete="off"
+            required
+          />
+          <mat-error *ngIf="productFormError.productName.show">{{
+            productFormError.productName.msg
+          }}</mat-error>
+        </mat-form-field>
+        <!-- 上浮比率 -->
+        <mat-form-field appearance="outline">
+          <mat-label>上浮比率</mat-label>
+          <input
+            matInput
+            formControlName="markup"
+            placeholder=""
+            autocomplete="off"
+            required
+          />
+          <mat-error *ngIf="productFormError.markup.show">{{
+            productFormError.markup.msg
+          }}</mat-error>
+        </mat-form-field>
+      </div>
+    </form>
+    <div class="a-add-box">
+      <h5 class="primary">新增物料</h5>
+      <form class="example-form" [formGroup]="materialRatioForm">
+        <div>
+          <mat-form-field class="a-mat-form-field" appearance="outline">
+            <mat-label>一级物料</mat-label>
+            <mat-select
+              formControlName="materialCode"
+              placeholder=""
+              (selectionChange)="filterSencondMateria()"
+            >
+              <mat-option
+                [value]="pt.materialCode"
+                *ngFor="let pt of firstMaterials"
+                >{{ pt.materialName }}</mat-option
+              >
+            </mat-select>
+            <mat-error
+              *ngIf="
+                !materialRatioForm.value.materialCode ||
+                materialRatioForm.value.materialCode.length < 1
+              "
+            >
+              你必须选择一级物料</mat-error
+            >
+          </mat-form-field>
+          <mat-form-field class="a-mat-form-field" appearance="outline">
+            <mat-label>二级物料</mat-label>
+            <mat-select formControlName="subMaterialCode" placeholder="">
+              <mat-option
+                [value]="pt.subMaterialCode"
+                *ngFor="let pt of filterSecondMaterials"
+                >{{ pt.subMaterialName }}</mat-option
+              >
+            </mat-select>
+            <mat-error
+              *ngIf="
+                !materialRatioForm.value.subMaterialCode ||
+                materialRatioForm.value.subMaterialCode.length < 1
+              "
+            >
+              你必须选择二级物料</mat-error
+            >
+          </mat-form-field>
+          <mat-form-field class="a-mat-form-field" appearance="outline">
+            <mat-label>物料配比</mat-label>
+            <input
+              matInput
+              formControlName="ratio"
+              placeholder=""
+              autocomplete="off"
+            />
+            <mat-error
+              *ngIf="
+                !materialRatioForm.value.ratio ||
+                materialRatioForm.value.ratio.length < 1
+              "
+              >你必须填写物料配比
+            </mat-error>
+          </mat-form-field>
+          <span class="a-add-btn">
+            <button mat-button (click)="addMaterialRatio()">
+              添加
+            </button>
+          </span>
+        </div>
+      </form>
+    </div>
+    <div class="border-box">
+      <div class="m-table" *ngIf="isShow()">
+        <h5 class=" primary">产品物料配比信息</h5>
+        <table mat-table [dataSource]="dataSource" matSort>
+          <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>序号</th>
+            <td mat-cell *matCellDef="let element">{{ element.id }}</td>
+          </ng-container>
+          <ng-container matColumnDef="materialCode">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              一级物料编码
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.materialCode }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="materialName">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              一级物料名称
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.materialName }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="subMaterialCode">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              二级物料编码
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.subMaterialCode }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="subMaterialName">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              二级物料名称
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.subMaterialName }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="radio">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+              二级物料配比
+            </th>
+            <td mat-cell *matCellDef="let element">
+              {{ element.subMaterialRatio }}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="operators">
+            <th mat-header-cell *matHeaderCellDef>操作</th>
+            <td mat-cell *matCellDef="let element">
+              <a mat-button (click)="detetMaterialRatio(element)">删除</a>
+            </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+
+        <mat-paginator
+          [pageSizeOptions]="[5, 10, 25, 100]"
+          showFirstLastButtons
+        ></mat-paginator>
+      </div>
+    </div>
+  </div>
+</div>

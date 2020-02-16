@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./assets/css/colors.css";
+@import "./assets/css/fonts.css";
+@import "./assets/scss/variable.scss";
+@import "./assets/scss/common.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+html,
+body,
+app-root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.shadow {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+// reset material component css
+.mat-select-value {
+  color: var(--primary-900) !important;
+}
+.main {
+  background-color: var(--primary-900);
+}
+.content {
+  min-height: 100px;
+  background-color: var(--surface-base);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 5px 20px;
+}
+// flex
+.flex-box {
+  display: flex;
+}
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+//popup
+.popup-out-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+.popup-center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+  @extend .shadow;
+}
+// button
+.btn {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.button-next {
+  color: $white;
+  background-color: $primary;
+  padding: 0px 25px !important;
+  border-radius: 20px !important;
+  @extend .btn;
+}
+.button-cancel {
+  color: $color-666;
+  @extend .btn;
+}
+.button-back {
+  color: $primary;
+  @extend .btn;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+// 弹窗样式
+.cdk-overlay-pane .mat-dialog-container {
+  margin: 20px 0;
+  height: auto;
+}

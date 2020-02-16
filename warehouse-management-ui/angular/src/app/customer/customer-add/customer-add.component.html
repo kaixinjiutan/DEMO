@@ -1,0 +1,51 @@
+<div class="m-user-add">
+  <div class="a-top">
+    <h5 class="primary">新增客户</h5>
+    <div class="">
+      <button
+        mat-button
+        mat-raised-button
+        color="primary"
+        [disabled]="!customerForm.valid"
+        (click)="saveCustomer()"
+      >
+        保存
+      </button>
+      <button mat-button [mat-dialog-close]="customer">
+        关闭
+      </button>
+    </div>
+  </div>
+  <form class="example-form" [formGroup]="customerForm">
+    <div>
+      <mat-form-field appearance="outline" class="a-mat-form-field">
+        <mat-label>客户名称</mat-label>
+        <input
+          matInput
+          formControlName="customerName"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="customerFormError.customerName.show">{{
+          customerFormError.customerName.msg
+        }}</mat-error>
+      </mat-form-field>
+      <mat-form-field  appearance="outline">
+        <mat-label>客户编码</mat-label>
+        <input
+          matInput
+          formControlName="customerCode"
+          placeholder=""
+          autocomplete="off"
+          required
+          (blur)="approved()"
+        />
+        <mat-error *ngIf="customerFormError.customerCode.show">{{
+          customerFormError.customerCode.msg
+        }}</mat-error>
+      </mat-form-field>
+    </div>
+  </form>
+</div>
